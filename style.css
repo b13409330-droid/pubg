@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 85px;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    background-color: #222222;
+    color: white;
+    padding: 10px;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.menyu{
+    display: flex;
+    align-items: center;
+    gap: 25px;    
+}
+.logo img{
+    width: 56px;
+    height: 46px;
+}
+.menyu img{
+    width: 30px;
+    height: 30px;
+}
+.lanugage{
+    color: white;
+}
+.play{
+    text-transform: uppercase;
+    background-color: #F1A900;
+    padding: 32px;
+}
+
+
+.game{
+    height: 800px;
+    background-image: url("./img/game-fon.png");
+    /* background-image: linear-gradient(to bottom, black, yellow); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tugmalar{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 200px;
+}
+.pc{
+    background-color:#F1A900;
+    color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.console{
+   background-color:black;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: bold; 
+}
+
+
